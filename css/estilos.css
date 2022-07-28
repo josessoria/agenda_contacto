@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 0, 119);
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.target{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px 0px 0px 0px;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    width: 90%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(241, 241, 241);
+    padding: 10px 10px;
+
+}
+
+button{
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border: none;
+    width: 50%;
+    background-color: rgb(226, 43, 43);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: brown;
+}
+
+
+
+.contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(223, 223, 223);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+
+.contacto span{
+    color: red;
+    cursor: pointer;
+}
